@@ -1,0 +1,12 @@
+﻿{
+  "name": "student-assessment-report",
+  "version": "1.0.0",
+  "description": "Minimal Student Speaking Assessment Report (prototype)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

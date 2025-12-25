@@ -1,0 +1,11 @@
+﻿{
+  "id": "student1",
+  "name": "John Doe",
+  "overall": 7,
+  "scores": {
+    "Pronunciation": 7,
+    "Fluency": 7,
+    "Vocabulary": 6.5,
+    "Grammar": 7.5
+  }
+}

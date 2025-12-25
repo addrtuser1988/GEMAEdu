@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Speaking Assessment Report</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <section class="summary">
+      <div class="student">Report: <span id="studentName"></span></div>
+      <div class="overall">
+        <div class="label">Overall Score</div>
+        <div class="score"><span id="overallScore">0</span> / 9</div>
+        <div id="overallFeedback" class="feedback"></div>
+      </div>
+      <div class="chart-placeholder" id="chart"></div>
+    </section>
+
+    <section class="skills">
+      <h3>Skill-wise Scores</h3>
+      <div id="skillsList"></div>
+    </section>
+
+    <section class="desc">
+      <h3>Descriptive Feedback</h3>
+      <p id="descText"></p>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
