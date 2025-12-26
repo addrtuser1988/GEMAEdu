@@ -67,8 +67,3 @@ Quick API test (CLI):
 curl http://localhost:3000/api/report
 ```
 
-If you want, I can:
-- change the server to read `data/student.json` on every request (no restart needed), or
-- add Chart.js to replace the numeric placeholder with a chart, or
-- commit this README for you.
-
