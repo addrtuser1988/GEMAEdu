@@ -10,7 +10,7 @@ Prerequisites:
 Steps:
 
 ```powershell
-cd "C:\Users\dabeer.haider\Desktop\Student Assessment Report"
+cd "C:\Users\Desktop\Student Assessment Report"
 npm install
 npm start
 # Open http://localhost:3000 in your browser
